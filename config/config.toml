@@ -1,0 +1,6 @@
+[llm]
+model = "gpt-4o"
+base_url = "https://xiaoai.plus/v1"
+api_key = "sk-bXeVbkmRhN8B4kv345dNsiGfGe0c6bKbA5xmrfdzkYb3JILW"
+max_tokens = 4096
+temperature = 0.8

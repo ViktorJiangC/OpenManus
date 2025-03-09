@@ -55,9 +55,9 @@ class Config:
         config_path = root / "config" / "config.toml"
         if config_path.exists():
             return config_path
-        example_path = root / "config" / "config.example.toml"
-        if example_path.exists():
-            return example_path
+        # example_path = root / "config" / "config.example.toml"
+        # if example_path.exists():
+        #     return example_path
         raise FileNotFoundError("No configuration file found in config directory")
 
     def _load_config(self) -> dict:
